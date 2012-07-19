@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D620B98D14D9155C00274348 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620B98C14D9155C00274348 /* UIKit.framework */; };
+		D620B98F14D9155C00274348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620B98E14D9155C00274348 /* Foundation.framework */; };
+		D620B99114D9155C00274348 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D620B99014D9155C00274348 /* CoreGraphics.framework */; };
+		D620B99714D9155C00274348 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D620B99514D9155C00274348 /* InfoPlist.strings */; };
+		D620B99914D9155C00274348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D620B99814D9155C00274348 /* main.m */; };
+		D620B99D14D9155C00274348 /* memoryChallengerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D620B99C14D9155C00274348 /* memoryChallengerAppDelegate.m */; };
+		D620B9A014D9155C00274348 /* memoryChallengerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D620B99F14D9155C00274348 /* memoryChallengerViewController.m */; };
+		D620B9A314D9155C00274348 /* memoryChallengerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D620B9A114D9155C00274348 /* memoryChallengerViewController.xib */; };
+		D620B9B814D915DA00274348 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9A914D915DA00274348 /* blueButton.png */; };
+		D620B9B914D915DA00274348 /* blueLight.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9AA14D915DA00274348 /* blueLight.png */; };
+		D620B9BA14D915DA00274348 /* buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9AB14D915DA00274348 /* buttons.png */; };
+		D620B9BB14D915DA00274348 /* gameScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9AC14D915DA00274348 /* gameScreen.png */; };
+		D620B9BC14D915DA00274348 /* GO.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9AD14D915DA00274348 /* GO.png */; };
+		D620B9BD14D915DA00274348 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9AE14D915DA00274348 /* greenButton.png */; };
+		D620B9BE14D915DA00274348 /* greenLight.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9AF14D915DA00274348 /* greenLight.png */; };
+		D620B9BF14D915DA00274348 /* niceT.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9B014D915DA00274348 /* niceT.png */; };
+		D620B9C014D915DA00274348 /* oopsT.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9B114D915DA00274348 /* oopsT.png */; };
+		D620B9C114D915DA00274348 /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9B214D915DA00274348 /* redButton.png */; };
+		D620B9C214D915DA00274348 /* redLight.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9B314D915DA00274348 /* redLight.png */; };
+		D620B9C314D915DA00274348 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9B414D915DA00274348 /* start.png */; };
+		D620B9C414D915DA00274348 /* startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9B514D915DA00274348 /* startButton.png */; };
+		D620B9C514D915DA00274348 /* yellowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9B614D915DA00274348 /* yellowButton.png */; };
+		D620B9C614D915DA00274348 /* yellowLight.png in Resources */ = {isa = PBXBuildFile; fileRef = D620B9B714D915DA00274348 /* yellowLight.png */; };
+		D620B9D614D9161A00274348 /* correctButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D620B9C914D9161A00274348 /* correctButtonView.m */; };
+		D620B9D714D9161A00274348 /* goView.m in Sources */ = {isa = PBXBuildFile; fileRef = D620B9CB14D9161A00274348 /* goView.m */; };
+		D620B9D814D9161A00274348 /* mainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D620B9CD14D9161A00274348 /* mainView.m */; };
+		D620B9D914D9161A00274348 /* newGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = D620B9CF14D9161A00274348 /* newGameView.m */; };
+		D620B9DA14D9161A00274348 /* niceView.m in Sources */ = {isa = PBXBuildFile; fileRef = D620B9D114D9161A00274348 /* niceView.m */; };
+		D620B9DB14D9161A00274348 /* oopsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D620B9D314D9161A00274348 /* oopsView.m */; };
+		D620B9DC14D9161A00274348 /* playerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D620B9D514D9161A00274348 /* playerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D620B98814D9155C00274348 /* memoryChallenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoryChallenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D620B98C14D9155C00274348 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D620B98E14D9155C00274348 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D620B99014D9155C00274348 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D620B99414D9155C00274348 /* memoryChallenger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "memoryChallenger-Info.plist"; sourceTree = "<group>"; };
+		D620B99614D9155C00274348 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D620B99814D9155C00274348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D620B99A14D9155C00274348 /* memoryChallenger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "memoryChallenger-Prefix.pch"; sourceTree = "<group>"; };
+		D620B99B14D9155C00274348 /* memoryChallengerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memoryChallengerAppDelegate.h; sourceTree = "<group>"; };
+		D620B99C14D9155C00274348 /* memoryChallengerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memoryChallengerAppDelegate.m; sourceTree = "<group>"; };
+		D620B99E14D9155C00274348 /* memoryChallengerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memoryChallengerViewController.h; sourceTree = "<group>"; };
+		D620B99F14D9155C00274348 /* memoryChallengerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memoryChallengerViewController.m; sourceTree = "<group>"; };
+		D620B9A214D9155C00274348 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/memoryChallengerViewController.xib; sourceTree = "<group>"; };
+		D620B9A914D915DA00274348 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		D620B9AA14D915DA00274348 /* blueLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueLight.png; sourceTree = "<group>"; };
+		D620B9AB14D915DA00274348 /* buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons.png; sourceTree = "<group>"; };
+		D620B9AC14D915DA00274348 /* gameScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameScreen.png; sourceTree = "<group>"; };
+		D620B9AD14D915DA00274348 /* GO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GO.png; sourceTree = "<group>"; };
+		D620B9AE14D915DA00274348 /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
+		D620B9AF14D915DA00274348 /* greenLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenLight.png; sourceTree = "<group>"; };
+		D620B9B014D915DA00274348 /* niceT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niceT.png; sourceTree = "<group>"; };
+		D620B9B114D915DA00274348 /* oopsT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oopsT.png; sourceTree = "<group>"; };
+		D620B9B214D915DA00274348 /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
+		D620B9B314D915DA00274348 /* redLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redLight.png; sourceTree = "<group>"; };
+		D620B9B414D915DA00274348 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		D620B9B514D915DA00274348 /* startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton.png; sourceTree = "<group>"; };
+		D620B9B614D915DA00274348 /* yellowButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowButton.png; sourceTree = "<group>"; };
+		D620B9B714D915DA00274348 /* yellowLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowLight.png; sourceTree = "<group>"; };
+		D620B9C814D9161A00274348 /* correctButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = correctButtonView.h; sourceTree = "<group>"; };
+		D620B9C914D9161A00274348 /* correctButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = correctButtonView.m; sourceTree = "<group>"; };
+		D620B9CA14D9161A00274348 /* goView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goView.h; sourceTree = "<group>"; };
+		D620B9CB14D9161A00274348 /* goView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = goView.m; sourceTree = "<group>"; };
+		D620B9CC14D9161A00274348 /* mainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainView.h; sourceTree = "<group>"; };
+		D620B9CD14D9161A00274348 /* mainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainView.m; sourceTree = "<group>"; };
+		D620B9CE14D9161A00274348 /* newGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newGameView.h; sourceTree = "<group>"; };
+		D620B9CF14D9161A00274348 /* newGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newGameView.m; sourceTree = "<group>"; };
+		D620B9D014D9161A00274348 /* niceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = niceView.h; sourceTree = "<group>"; };
+		D620B9D114D9161A00274348 /* niceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = niceView.m; sourceTree = "<group>"; };
+		D620B9D214D9161A00274348 /* oopsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oopsView.h; sourceTree = "<group>"; };
+		D620B9D314D9161A00274348 /* oopsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oopsView.m; sourceTree = "<group>"; };
+		D620B9D414D9161A00274348 /* playerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playerView.h; sourceTree = "<group>"; };
+		D620B9D514D9161A00274348 /* playerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D620B98514D9155C00274348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620B98D14D9155C00274348 /* UIKit.framework in Frameworks */,
+				D620B98F14D9155C00274348 /* Foundation.framework in Frameworks */,
+				D620B99114D9155C00274348 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D620B97D14D9155C00274348 = {
+			isa = PBXGroup;
+			children = (
+				D620B9C714D915EA00274348 /* Resources */,
+				D620B99214D9155C00274348 /* memoryChallenger */,
+				D620B98B14D9155C00274348 /* Frameworks */,
+				D620B98914D9155C00274348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D620B98914D9155C00274348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D620B98814D9155C00274348 /* memoryChallenger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D620B98B14D9155C00274348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D620B98C14D9155C00274348 /* UIKit.framework */,
+				D620B98E14D9155C00274348 /* Foundation.framework */,
+				D620B99014D9155C00274348 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D620B99214D9155C00274348 /* memoryChallenger */ = {
+			isa = PBXGroup;
+			children = (
+				D620B99B14D9155C00274348 /* memoryChallengerAppDelegate.h */,
+				D620B99C14D9155C00274348 /* memoryChallengerAppDelegate.m */,
+				D620B9C814D9161A00274348 /* correctButtonView.h */,
+				D620B9C914D9161A00274348 /* correctButtonView.m */,
+				D620B9CA14D9161A00274348 /* goView.h */,
+				D620B9CB14D9161A00274348 /* goView.m */,
+				D620B9CC14D9161A00274348 /* mainView.h */,
+				D620B9CD14D9161A00274348 /* mainView.m */,
+				D620B9CE14D9161A00274348 /* newGameView.h */,
+				D620B9CF14D9161A00274348 /* newGameView.m */,
+				D620B9D014D9161A00274348 /* niceView.h */,
+				D620B9D114D9161A00274348 /* niceView.m */,
+				D620B9D214D9161A00274348 /* oopsView.h */,
+				D620B9D314D9161A00274348 /* oopsView.m */,
+				D620B9D414D9161A00274348 /* playerView.h */,
+				D620B9D514D9161A00274348 /* playerView.m */,
+				D620B99E14D9155C00274348 /* memoryChallengerViewController.h */,
+				D620B99F14D9155C00274348 /* memoryChallengerViewController.m */,
+				D620B9A114D9155C00274348 /* memoryChallengerViewController.xib */,
+				D620B99314D9155C00274348 /* Supporting Files */,
+			);
+			path = memoryChallenger;
+			sourceTree = "<group>";
+		};
+		D620B99314D9155C00274348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D620B99414D9155C00274348 /* memoryChallenger-Info.plist */,
+				D620B99514D9155C00274348 /* InfoPlist.strings */,
+				D620B99814D9155C00274348 /* main.m */,
+				D620B99A14D9155C00274348 /* memoryChallenger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D620B9C714D915EA00274348 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D620B9A914D915DA00274348 /* blueButton.png */,
+				D620B9AA14D915DA00274348 /* blueLight.png */,
+				D620B9AB14D915DA00274348 /* buttons.png */,
+				D620B9AC14D915DA00274348 /* gameScreen.png */,
+				D620B9AD14D915DA00274348 /* GO.png */,
+				D620B9AE14D915DA00274348 /* greenButton.png */,
+				D620B9AF14D915DA00274348 /* greenLight.png */,
+				D620B9B014D915DA00274348 /* niceT.png */,
+				D620B9B114D915DA00274348 /* oopsT.png */,
+				D620B9B214D915DA00274348 /* redButton.png */,
+				D620B9B314D915DA00274348 /* redLight.png */,
+				D620B9B414D915DA00274348 /* start.png */,
+				D620B9B514D915DA00274348 /* startButton.png */,
+				D620B9B614D915DA00274348 /* yellowButton.png */,
+				D620B9B714D915DA00274348 /* yellowLight.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D620B98714D9155C00274348 /* memoryChallenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D620B9A614D9155C00274348 /* Build configuration list for PBXNativeTarget "memoryChallenger" */;
+			buildPhases = (
+				D620B98414D9155C00274348 /* Sources */,
+				D620B98514D9155C00274348 /* Frameworks */,
+				D620B98614D9155C00274348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = memoryChallenger;
+			productName = memoryChallenger;
+			productReference = D620B98814D9155C00274348 /* memoryChallenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D620B97F14D9155C00274348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D620B98214D9155C00274348 /* Build configuration list for PBXProject "memoryChallenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D620B97D14D9155C00274348;
+			productRefGroup = D620B98914D9155C00274348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D620B98714D9155C00274348 /* memoryChallenger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D620B98614D9155C00274348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620B99714D9155C00274348 /* InfoPlist.strings in Resources */,
+				D620B9A314D9155C00274348 /* memoryChallengerViewController.xib in Resources */,
+				D620B9B814D915DA00274348 /* blueButton.png in Resources */,
+				D620B9B914D915DA00274348 /* blueLight.png in Resources */,
+				D620B9BA14D915DA00274348 /* buttons.png in Resources */,
+				D620B9BB14D915DA00274348 /* gameScreen.png in Resources */,
+				D620B9BC14D915DA00274348 /* GO.png in Resources */,
+				D620B9BD14D915DA00274348 /* greenButton.png in Resources */,
+				D620B9BE14D915DA00274348 /* greenLight.png in Resources */,
+				D620B9BF14D915DA00274348 /* niceT.png in Resources */,
+				D620B9C014D915DA00274348 /* oopsT.png in Resources */,
+				D620B9C114D915DA00274348 /* redButton.png in Resources */,
+				D620B9C214D915DA00274348 /* redLight.png in Resources */,
+				D620B9C314D915DA00274348 /* start.png in Resources */,
+				D620B9C414D915DA00274348 /* startButton.png in Resources */,
+				D620B9C514D915DA00274348 /* yellowButton.png in Resources */,
+				D620B9C614D915DA00274348 /* yellowLight.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D620B98414D9155C00274348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D620B99914D9155C00274348 /* main.m in Sources */,
+				D620B99D14D9155C00274348 /* memoryChallengerAppDelegate.m in Sources */,
+				D620B9A014D9155C00274348 /* memoryChallengerViewController.m in Sources */,
+				D620B9D614D9161A00274348 /* correctButtonView.m in Sources */,
+				D620B9D714D9161A00274348 /* goView.m in Sources */,
+				D620B9D814D9161A00274348 /* mainView.m in Sources */,
+				D620B9D914D9161A00274348 /* newGameView.m in Sources */,
+				D620B9DA14D9161A00274348 /* niceView.m in Sources */,
+				D620B9DB14D9161A00274348 /* oopsView.m in Sources */,
+				D620B9DC14D9161A00274348 /* playerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D620B99514D9155C00274348 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D620B99614D9155C00274348 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D620B9A114D9155C00274348 /* memoryChallengerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D620B9A214D9155C00274348 /* en */,
+			);
+			name = memoryChallengerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D620B9A414D9155C00274348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Angel Lee (89BL6WCXFM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Angel Lee (89BL6WCXFM)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "1F1A97F3-6883-4BC6-815C-70650C489692";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1F1A97F3-6883-4BC6-815C-70650C489692";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D620B9A514D9155C00274348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Angel Lee (89BL6WCXFM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Angel Lee (89BL6WCXFM)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "1F1A97F3-6883-4BC6-815C-70650C489692";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1F1A97F3-6883-4BC6-815C-70650C489692";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D620B9A714D9155C00274348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Angel Lee (89BL6WCXFM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Angel Lee (89BL6WCXFM)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "memoryChallenger/memoryChallenger-Prefix.pch";
+				INFOPLIST_FILE = "memoryChallenger/memoryChallenger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1F1A97F3-6883-4BC6-815C-70650C489692";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1F1A97F3-6883-4BC6-815C-70650C489692";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D620B9A814D9155C00274348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Angel Lee (89BL6WCXFM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Angel Lee (89BL6WCXFM)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "memoryChallenger/memoryChallenger-Prefix.pch";
+				INFOPLIST_FILE = "memoryChallenger/memoryChallenger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1F1A97F3-6883-4BC6-815C-70650C489692";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1F1A97F3-6883-4BC6-815C-70650C489692";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D620B98214D9155C00274348 /* Build configuration list for PBXProject "memoryChallenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D620B9A414D9155C00274348 /* Debug */,
+				D620B9A514D9155C00274348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D620B9A614D9155C00274348 /* Build configuration list for PBXNativeTarget "memoryChallenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D620B9A714D9155C00274348 /* Debug */,
+				D620B9A814D9155C00274348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D620B97F14D9155C00274348 /* Project object */;
+}
